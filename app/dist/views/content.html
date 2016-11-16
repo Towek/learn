@@ -1,13 +1,5 @@
-<md-sidenav
-        class="md-sidenav-left"
-        md-component-id="left"
-        md-is-locked-open="$mdMedia('gt-sm')"
-        md-whiteframe="4">
-    <md-toolbar>
-        <h1>Sidenav</h1>
-    </md-toolbar>
-    <md-content>
-        <md-list flex="">
+<md-content>
+        <md-list>
             <md-list-item ng-repeat="dir in vm.dirs" class="md-2-line" ng-click="vm.selectDir(dir)" ng-class="{'selected': user === vm.selectedDir}">
                 <div class="md-list-item-text" layout="column" >
                     <h2>{{dir.name}}</h2>
@@ -15,5 +7,4 @@
                 </div>
             </md-list-item>
         </md-list>
-    </md-content>
-</md-sidenav>
+</md-content>

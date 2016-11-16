@@ -1,18 +1,18 @@
-<html lang="en" ng-app="angularMaterial">
+<html lang="en" ng-app="angularMaterial" class="ng-scope">
     <head>
         <link rel="stylesheet" href="./bower_components/angular-material/angular-material.css">
         <link rel="stylesheet" href="./bower_components/angular-material-icons/angular-material-icons.css">
         <link rel="stylesheet" href="assets/css/index.css">
         <meta name="viewport" content="initial-scale=1">
     </head>
-    <body layout="row" ng-cloak ng-controller="mainController as vm">
+    <body layout="row" ng-cloak ng-controller="mainController as vm" class="ng-scope ng-binding">
 
         <div ng-include="'dist/views/sidenav.html'" layout="vertical"></div>
 
         <div id="main" layout="column" flex>
             <div ng-include="'dist/views/toolbar.html'" aria-label="Settings" ng-disabled="true" layout="horizontal"></div>
             <md-content flex id="content">
-                content
+                <div ng-include="'dist/views/content.html'"></div>
             </md-content>
         </div>
 
@@ -23,6 +23,8 @@
         <script src="./bower_components/angular-material/angular-material.js"></script>
         <script src="./bower_components/angular-material-icons/angular-material-icons.js"></script>
         <script src="./dist/controllers/mainController.js"></script>
+        <script src="./dist/services/dirService.js"></script>
         <script src="./dist/boot.js"></script>
+
     </body>
 </html>
