@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05ebcab5-2d3e-449f-9e0e-85b012087f86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/services/mailService" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dist/views/content.html" afterPath="$PROJECT_DIR$/app/dist/views/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/model.ts" afterPath="$PROJECT_DIR$/app/src/model.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/services/dirService.ts" afterPath="$PROJECT_DIR$/app/src/services/dirService.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,6 +44,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mailService" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/services/mailService">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dist/views/content.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
@@ -143,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/dist/boot.js.map" />
         <option value="$PROJECT_DIR$/app/src/index.css" />
         <option value="$PROJECT_DIR$/app/src/index.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/mainController.ts" />
         <option value="$PROJECT_DIR$/app/index.css" />
         <option value="$PROJECT_DIR$/app/assets/svg/menu" />
@@ -158,6 +164,7 @@
         <option value="$PROJECT_DIR$/app/src/services/dirService.ts" />
         <option value="$PROJECT_DIR$/app/src/model.ts" />
         <option value="$PROJECT_DIR$/app/dist/views/content.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -496,12 +503,12 @@
       <option name="presentableId" value="Default" />
       <updated>1479242386102</updated>
       <workItem from="1479242389175" duration="5832000" />
-      <workItem from="1479305998995" duration="23029000" />
+      <workItem from="1479305998995" duration="23160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28861000" />
+    <option name="totallyTimeSpent" value="28992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1696" height="1036" extended-state="6" />
@@ -677,14 +684,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/angular-material/angular-material.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -879,6 +878,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
