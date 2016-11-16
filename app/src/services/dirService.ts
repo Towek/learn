@@ -20,25 +20,28 @@ module angularMaterial{
         private dirs: Dir[] = [
             {
                 name: 'Test',
-                description: 'Test directory'
+                description: 'Test directory',
+                mails: [
+                    {
+                        from: `test@test.com`,
+                        topic: `test`,
+                        text: 'lalalala lalalal allala lal alalla lal ala',
+                        date: new Date("01.01.69")
+                    }
+                ]
             },
             {
                 name: 'Test2',
-                description: 'Test2 directory'
-            },
-            {
-                name: 'Test3',
-                description: 'Test3 directory'
-            },
-            {
-                name: 'Test4',
-                description: 'Test4 directory'
-            },
-            {
-                name: 'Test5',
-                description: 'Test5 directory'
+                description: 'Test2 directory',
+                mails: [
+                    {
+                        from: `test2@test.com`,
+                        topic: `test2`,
+                        text: 'l2alalala 2lalalal alla2la lal alal2la l2al al2a',
+                        date: new Date("02.02.69")
+                    }
+                ]
             }
-
         ]
     }
 }

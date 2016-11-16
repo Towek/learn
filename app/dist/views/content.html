@@ -1,10 +1,11 @@
+<!--<p ng-if="vm.selected.mails.length">Wooops! No mails for ya!</p>-->
 <md-content>
-        <md-list>
-            <md-list-item ng-repeat="dir in vm.dirs" class="md-2-line" ng-click="vm.selectDir(dir)" ng-class="{'selected': user === vm.selectedDir}">
-                <div class="md-list-item-text" layout="column" >
-                    <h2>{{dir.name}}</h2>
-                    <p>{{dir.description}}</p>
-                </div>
-            </md-list-item>
-        </md-list>
+    <md-card ng-repeat="mail in vm.selected.mails | orderBy: '-date': true">
+        <md-card-content>
+            <span>{{mail.from}} - </span>
+            <span>{{mail.topic}}</span>
+            <span>{{mail.text}}</span>
+            <span>{{mail.date | date: 'dd/MM/yyyy'}}</span>
+        </md-card-content>
+    </md-card>
 </md-content>
