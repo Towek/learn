@@ -1,4 +1,7 @@
 /// <reference path="_all.ts" />
-var a = [1, 2, 3];
-var b = a.concat([4, 5, 6, 7]);
+var angularMaterial;
+(function (angularMaterial) {
+    angular.module('angularMaterial', ['ngMaterial'])
+        .controller('mainController', angularMaterial.MainController);
+})(angularMaterial || (angularMaterial = {}));
 //# sourceMappingURL=boot.js.map

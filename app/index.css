@@ -1,20 +1,45 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+/* COLOR PALETE */
+:root{
+    --primary_4: #C5CAE9;
+    --primary_3: #7986CB;
+    --primary_2: #5C6BC0;
+    --primary: #3F51B5;
+    --primary2: #3949AB;
+    --primary3: #303F9F;
+    --primary4: #1A237E;
+}
 *{
     margin: 0;
     padding: 0;
 }
-
-#main{
-    background-color: #3F51B5;
-
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
-#navbar{
-    background-color: #3949AB;
+md-nav-bar{
+    background-color: var(--primary);
 }
 
-#marginLeft{
-    background-color: red;
+md-toolbar{
+    background-color: var(--primary3);
 }
-#marginRight{
-    background-color: yellow;
+
+md-toolbar h1{
+    font-size: 1.250em;
+    font-weight: 400;
+    margin: auto;
+}
+
+md-toolbar .md-toolbar-tools h1{
+    font-size: 1.250em;
+    font-weight: 400;
+}
+
+#content{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
 }

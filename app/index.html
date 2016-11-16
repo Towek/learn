@@ -1,22 +1,26 @@
-<html>
+<html lang="en" ng-app="angularMaterial">
     <head>
         <link rel="stylesheet" href="./bower_components/angular-material/angular-material.css">
         <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="initial-scale=1">
     </head>
-    <body>
+    <body layout="row" ng-cloak ng-controller="mainController as vm">
+
+        <div ng-include="'dist/views/sidenav.html'" layout="vertical">IM HIDING WOW!</div>
+
+        <div id="main" layout="column" flex>
+            <div ng-include="'dist/views/toolbar.html'" layout="horizontal"></div>
+            <md-content flex id="content">
+                content
+            </md-content>
+        </div>
+
 
         <script src="./bower_components/angular/angular.js"></script>
         <script src="./bower_components/angular-animate/angular-animate.js"></script>
         <script src="./bower_components/angular-aria/angular-aria.js"></script>
         <script src="./bower_components/angular-material/angular-material.js"></script>
+        <script src="./dist/controllers/mainController.js"></script>
         <script src="./dist/boot.js"></script>
-        
-        <div id="main" layout="row">
-            <div id="navbar" layout="row">Suppa cooly materialy</div>
-            <div id="content" layout="row">
-                <div id="marginLeft" flex="20">navbar</div>
-                <div id="marginRight" flex="80">content</div>
-            </div>
-        </div>
     </body>
 </html>
