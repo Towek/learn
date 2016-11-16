@@ -4,7 +4,7 @@ var angularMaterial;
     var MainController = (function () {
         function MainController($mdSidenav) {
             this.$mdSidenav = $mdSidenav;
-            this.message = "Hello from controller!";
+            this.selected = null;
         }
         //toggle button
         MainController.prototype.toggleSideNav = function () {

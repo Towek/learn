@@ -9,8 +9,7 @@ module angularMaterial {
         ){
 
         }
-        message: string = "Hello from controller!"
-
+        selected: Dir = null
         //toggle button
         toggleSideNav(): void {
             this.$mdSidenav('left').toggle();

@@ -1,9 +1,37 @@
 <md-sidenav
         class="md-sidenav-left"
         md-component-id="left"
-        md-is-locked-open="$mdMedia('gt-sm')"
+        md-is-locked-open="$mdMedia('gt-xs')"
         md-whiteframe="4">
     <md-toolbar>
         <h1>Sidenav</h1>
     </md-toolbar>
+    <md-content>
+        <md-list flex="">
+            <md-list-item class="md-2-line" ng-click="vm.selectDir(dir)" ng-class="{'selected': user === vm.selectedDir}">
+                <div class="md-list-item-text" layout="column" >
+                    <h2>Inbox</h2>
+                    <p>Main directory</p>
+                </div>
+            </md-list-item>
+            <md-list-item class="md-2-line" ng-click="vm.selectDir(dir)" ng-class="{'selected': user === vm.selectedDir}">
+                <div class="md-list-item-text" layout="column" >
+                    <h2>Spam</h2>
+                    <p>Spam directory</p>
+                </div>
+            </md-list-item>
+            <md-list-item class="md-2-line" ng-click="vm.selectDir(dir)" ng-class="{'selected': user === vm.selectedDir}">
+                <div class="md-list-item-text" layout="column" >
+                    <h2>Deleted</h2>
+                    <p>Bin directory</p>
+                </div>
+            </md-list-item>
+            <md-list-item class="md-2-line" ng-click="vm.selectDir(dir)" ng-class="{'selected': user === vm.selectedDir}">
+                <div class="md-list-item-text" layout="column" >
+                    <h2>User Dir</h2>
+                    <p>Description</p>
+                </div>
+            </md-list-item>
+        </md-list>
+    </md-content>
 </md-sidenav>
