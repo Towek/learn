@@ -1,11 +1,15 @@
-<!--<p ng-if="vm.selected.mails.length">Wooops! No mails for ya!</p>-->
 <md-content>
-    <md-card ng-repeat="mail in vm.selected.mails | orderBy: '-date': true">
-        <md-card-content>
-            <span>{{mail.from}} - </span>
-            <span>{{mail.topic}}</span>
-            <span>{{mail.text}}</span>
-            <span>{{mail.date | date: 'dd/MM/yyyy'}}</span>
-        </md-card-content>
+
+    <md-card ng-repeat="mail in vm.selected.mails">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{mail.from}} - {{mail.topic}}<a class="mailDate">{{mail.date | date: 'H:mm dd/MM/yyyy'}}</a></span>
+            <span class="md-subhead">{{mail.text}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end start">
+          <md-button>Delete</md-button>
+          <md-button>Answer</md-button>
+        </md-card-actions>
     </md-card>
 </md-content>

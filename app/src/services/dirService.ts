@@ -27,6 +27,18 @@ module angularMaterial{
                         topic: `test`,
                         text: 'lalalala lalalal allala lal alalla lal ala',
                         date: new Date("01.01.69")
+                    },
+                    {
+                        from: `test@test.com`,
+                        topic: `test`,
+                        text: 'lalalala lalalal allala lal alalla lal ala',
+                        date: new Date("01.01.69")
+                    },
+                    {
+                        from: `test@test.com`,
+                        topic: `test`,
+                        text: 'lalalala lalalal allala lal alalla lal ala',
+                        date: new Date("01.01.69")
                     }
                 ]
             },

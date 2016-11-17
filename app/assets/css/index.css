@@ -38,6 +38,19 @@ md-toolbar .md-toolbar-tools h1{
     font-weight: 400;
 }
 
-#content{
-
+.mailAll{
+    width: 100%!important
+}
+.mailFrom{
+    font-weight: bold;
+}
+.mailTopic{
+    font-weight: 400
+}
+.mailText{
+    margin-left: 20px;
+}
+.mailDate{
+    position: absolute;
+    right: 16px;
 }

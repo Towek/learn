@@ -8,8 +8,8 @@
     </md-toolbar>
     <md-content>
         <md-list flex="">
-            <md-list-item ng-repeat="dir in vm.dirs" class="md-2-line" ng-click="vm.selectDir(dir)" ng-class="{'selected': user === vm.selectedDir}">
-                <div class="md-list-item-text" layout="column" >
+            <md-list-item ng-repeat="dir in vm.dirs" class="md-2-line">
+                <div class="md-list-item-text" layout="column">
                     <h2>{{dir.name}}</h2>
                     <p>{{dir.description}}</p>
                 </div>

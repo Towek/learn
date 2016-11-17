@@ -3,6 +3,7 @@ var angularMaterial;
 (function (angularMaterial) {
     angular.module('angularMaterial', ['ngMaterial', 'ngMdIcons'])
         .service('dirService', angularMaterial.DirService)
+        .service('mailService', angularMaterial.MailService)
         .controller('mainController', angularMaterial.MainController)
         .config(function ($mdIconProvider) {
         $mdIconProvider.
